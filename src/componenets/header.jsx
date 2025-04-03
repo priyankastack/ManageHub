@@ -10,14 +10,14 @@ const Header = () => {
     <>
       <nav className=" flex flex-row justify-center items-center gap-100 bg-black h-20">
         <Link
-          to="/home"
+          to="/"
           className="text-3xl font-bold text-[#3a0ca3] cursor-pointer"
         >
           Logo
         </Link>
         <div className=" flex flex-row gap-5 text-lg font-medium">
           <NavLink
-            to="/home"
+            to="/"
             className={({ isActive }) =>
               isActive
                 ? "text-white underline decoration-solid decoration-2 decoration-[#3a0ca3] underline-offset-8"
