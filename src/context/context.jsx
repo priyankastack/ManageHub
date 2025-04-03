@@ -31,7 +31,7 @@ const TokenProvider = ({ children }) => {
 
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:8000/api/user", {
+      const response = await fetch("https://manage-hub-backend.vercel.app/api/user", {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },
       });

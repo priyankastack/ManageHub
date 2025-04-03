@@ -22,7 +22,7 @@ const{token,storeToken}=useContext(TokenContext);
         const adminaccess=async()=>{
             try {
                
-                const response=await fetch("http://localhost:8000/api/admin/contactdata",{
+                const response=await fetch("https://manage-hub-backend.vercel.app/api/admin/contactdata",{
                     method:"GET",
                     headers: {
                         Authorization: `Bearer ${token}` // Ensure token is stored and retrieved properly
@@ -49,7 +49,7 @@ const{token,storeToken}=useContext(TokenContext);
 
         const handleDelete=async(Contactid)=>{
 try {
-  const response=await fetch(`http://localhost:8000/api/admin/deleteContact/${Contactid}`,{
+  const response=await fetch(`https://manage-hub-backend.vercel.app/api/admin/deleteContact/${Contactid}`,{
     method:"DELETE",
     headers: { 
       "Content-Type": "application/json",

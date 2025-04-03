@@ -13,7 +13,7 @@ const login=async(e)=>{
         email,password
         }
         try{
-            const response=await fetch("http://localhost:8000/api/login",{
+            const response=await fetch("https://manage-hub-backend.vercel.app/api/login",{
                 method:"POST",
                 headers:{
                 "Content-Type":"application/json"  

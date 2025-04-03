@@ -7,7 +7,7 @@ const Service = () => {
 
   useEffect(() => {
     const getService = async () => {
-      const response = await fetch("http://localhost:8000/api/services", {
+      const response = await fetch("https://manage-hub-backend.vercel.app/api/services", {
         method:"GET",
         headers: {
           "Content-Type": "application/json",

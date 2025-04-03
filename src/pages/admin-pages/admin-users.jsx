@@ -20,7 +20,7 @@ const Adminusers = () => {
       }
 
       try {
-        const response = await fetch("http://localhost:8000/api/admin/userdata", {
+        const response = await fetch("https://manage-hub-backend.vercel.app/api/admin/userdata", {
           method: "GET",
           headers: { 
             "Content-Type": "application/json",
@@ -48,7 +48,7 @@ console.log(data);
 
   const handleDelete=async(id)=>{
     try {
-      const response=await fetch(`http://localhost:8000/api/admin/deletebyId/${id}`,{
+      const response=await fetch(`https://manage-hub-backend.vercel.app/api/admin/deletebyId/${id}`,{
         method: "DELETE",
         headers: { 
           "Content-Type": "application/json",

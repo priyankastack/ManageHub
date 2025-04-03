@@ -27,7 +27,7 @@ const Edit = () => {
 
       setLoading(true);
       try {
-        const response = await fetch(`http://localhost:8000/api/admin/user/${id}`, {
+        const response = await fetch(`https://manage-hub-backend.vercel.app/api/admin/user/${id}`, {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`,
@@ -57,7 +57,7 @@ const Edit = () => {
   const handleEdit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`http://localhost:8000/api/admin/updatebyId/${id}`, {
+      const response = await fetch(`https://manage-hub-backend.vercel.app/api/admin/updatebyId/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",

@@ -16,7 +16,7 @@ const Register=()=>{
             phone
         }
         try{
-            const response=await fetch("http://localhost:8000/api/register",{
+            const response=await fetch("https://manage-hub-backend.vercel.app/api/register",{
                 method:"POST",
                 headers:{
                 "Content-Type":"application/json"  
