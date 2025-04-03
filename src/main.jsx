@@ -23,8 +23,8 @@ import Edit from './pages/admin-pages/edit.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/home" element={<App />}>
-      <Route path="home" element={<Home />} />
+    <Route path="" element={<App />}>
+      <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="service" element={<Service />} />
       <Route path="contact" element={<Contact />} />
