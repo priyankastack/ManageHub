@@ -32,19 +32,19 @@ const Home = () => {
           </div>
         </div>
         <div className="bg-white h-30 lg:w-4xl max-sm:w-xl rounded-lg flex justify-center items-center place-self-center gap-10">
-          <div className=" h-15 flex flex-col justify-center items-center lg:px-8 sm:px-6 border-r-black border-r-2 ">
+          <div className=" h-15 flex flex-col justify-center items-center lg:px-8 border-r-black border-r-2 ">
             <p className="lg:text-2xl max-sm:lg font-bold">50+</p>
             <p className="font-serif text-sm">Registered Companies</p>
           </div>
-          <div className=" h-15 flex flex-col justify-center items-center lg:px-8 sm:px-6 border-r-black border-r-2 ">
+          <div className=" h-15 flex flex-col justify-center items-center lg:px-8 border-r-black border-r-2 ">
             <p className="lg:text-2xl max-sm:lg  font-bold">100,00+</p>
             <p className="font-serif text-sm">Happy Clients</p>
           </div>
-          <div className=" h-15 flex flex-col justify-center items-center lg:px-8 sm:px-6 border-r-black border-r-2 ">
+          <div className=" h-15 flex flex-col justify-center items-center lg:px-8 border-r-black border-r-2 ">
             <p className="lg:text-2xl max-sm:lg  font-bold">500+</p>
             <p className="font-serif text-sm">Well Known Developers</p>
           </div>
-          <div className=" h-15 flex flex-col justify-center items-center lg:px-8 sm:px-6">
+          <div className=" h-15 flex flex-col justify-center items-center lg:px-8">
             <p className="lg:text-2xl max-sm:lg  font-bold">24/7</p>
             <p className="font-serif text-sm">Service</p>
           </div>
