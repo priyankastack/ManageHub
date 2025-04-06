@@ -33,19 +33,19 @@ const Home = () => {
         </div>
         <div className="bg-white max-sm:h-20 lg:h-30 lg:w-4xl max-sm:w-lg rounded-lg flex justify-center items-center place-self-center gap-10">
           <div className=" lg:h-15 max-sm:h-8 flex flex-col justify-center items-center lg:px-8 border-r-black border-r-2 ">
-            <p className="lg:text-2xl max-sm:sm font-bold">50+</p>
+            <p className="lg:text-2xl max-sm:xs font-bold">50+</p>
             <p className="font-serif lg:text-sm max-sm:text-xs">Registered Companies</p>
           </div>
           <div className=" lg:h-15 max-sm:h-8 flex flex-col justify-center items-center lg:px-8 border-r-black border-r-2 ">
-            <p className="lg:text-2xl max-sm:sm  font-bold">100,00+</p>
+            <p className="lg:text-2xl max-sm:xs  font-bold">100,00+</p>
             <p className="font-serif lg:text-sm max-sm:text-xs">Happy Clients</p>
           </div>
           <div className=" lg:h-15 max-sm:h-8 flex flex-col justify-center items-center lg:px-8 border-r-black border-r-2 ">
-            <p className="lg:text-2xl max-sm:sm  font-bold">500+</p>
+            <p className="lg:text-2xl max-sm:xs  font-bold">500+</p>
             <p className="font-serif lg:text-sm max-sm:text-xs">Well Known Developers</p>
           </div>
           <div className=" lg:h-15 max-sm:h-8 flex flex-col justify-center items-center lg:px-8">
-            <p className="lg:text-2xl max-sm:sm  font-bold">24/7</p>
+            <p className="lg:text-2xl max-sm:xs  font-bold">24/7</p>
             <p className="font-serif lg:text-sm max-sm:text-xs">Service</p>
           </div>
         </div>
