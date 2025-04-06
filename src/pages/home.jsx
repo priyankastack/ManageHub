@@ -31,7 +31,7 @@ const Home = () => {
             <img src="images/home1.png" className="h-80"></img>
           </div>
         </div>
-        <div className="bg-white h-30 lg:w-4xl max-sm:w-xl rounded-lg flex justify-center items-center place-self-center gap-10">
+        <div className="bg-white max-sm:h-15 lg:h-30 lg:w-4xl max-sm:w-lg rounded-lg flex justify-center items-center place-self-center gap-10">
           <div className=" h-15 flex flex-col justify-center items-center lg:px-8 border-r-black border-r-2 ">
             <p className="lg:text-2xl max-sm:lg font-bold">50+</p>
             <p className="font-serif text-sm">Registered Companies</p>
