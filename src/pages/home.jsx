@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <section className=" bg-black lg:h-full max-sm:h-full">
+      <section className=" bg-black lg:h-full max-sm:h-full max-sm:w-full">
         <div className=" flex flex-row place-self-center ">
           <div className="text-white w-96 h-96 flex flex-col gap-2 mt-19">
             <div>
@@ -18,7 +18,7 @@ const Home = () => {
                 asperiores ea rerum.
               </p>
             </div>
-            <div className="flex flex-row gap-4">
+            <div className="flex flex-row gap-4 max-sm:w-full">
               <button className="bg-[#3a0ca3] rounded-sm w-30 h-10 text-center cursor-pointer">
                 Connect Now
               </button>
