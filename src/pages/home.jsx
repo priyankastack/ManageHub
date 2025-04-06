@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <>
-      <section className=" bg-black lg:h-full max-sm:h-full md:w-4xl">
+      <section className=" bg-black lg:h-full max-sm:h-full">
         <div className=" flex flex-row place-self-center ">
           <div className="text-white w-96 h-96 flex flex-col gap-2 mt-19">
             <div>
