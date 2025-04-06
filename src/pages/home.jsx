@@ -18,7 +18,7 @@ const Home = () => {
                 asperiores ea rerum.
               </p>
             </div>
-            <div className="flex flex-row gap-4 max-sm:4xl">
+            <div className="flex flex-row gap-4 max-sm:w-4xl">
               <button className="bg-[#3a0ca3] rounded-sm w-30 h-10 text-center cursor-pointer">
                 Connect Now
               </button>
